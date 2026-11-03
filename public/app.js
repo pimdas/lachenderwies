@@ -42,7 +42,11 @@ const heroPhotos = [
  {file:'buut-podium.jpg', title:'BUUT OP DE PLENK', year:2022, alt:'Een buutereedner in een rood jasje wijst lachend het publiek in, tijdens Lachenderwies 2022.'},
  {file:'buut-kostuum.jpg', title:'DE BUUT', year:2023, alt:'Een buutereedner in kleurrijk kostuum aan de microfoon, Lachenderwies 2023.'},
  {file:'dansgroep.jpg', title:'DE DANS', year:2022, alt:'Een dansgroep in rode kostuums op het podium tijdens Lachenderwies 2022.'},
- {file:'show.jpg', title:'DE SHOW', year:2022, alt:'Showdans onder gekleurde podiumlichten tijdens Lachenderwies 2022.'}
+ {file:'show.jpg', title:'DE SHOW', year:2022, alt:'Showdans onder gekleurde podiumlichten tijdens Lachenderwies 2022.'},
+ {file:'buut-zonnebril.jpg', title:'AAN DE MICROFOON', year:2023, alt:'Een buutereedner met zonnebril aan de microfoon tijdens Lachenderwies 2023.'},
+ {file:'theaterzaal.jpg', title:'IN DE ORANJERIE', year:2023, alt:'Een breed zicht op de verlichte theaterzaal en het podium van Lachenderwies 2023.'},
+ {file:'acrobatiek.jpg', title:'HOOG BOVEN DE PLENK', year:2023, alt:'Een acrobatische danser boven de dansgroep op het podium tijdens Lachenderwies 2023.'},
+ {file:'dans-podium.jpg', title:'MEZIEK EN DANS', year:2023, alt:'Dansers in rode kostuums naast de muzikanten op het podium tijdens Lachenderwies 2023.'}
 ];
 const heroImage = document.querySelector('.poster-image img');
 const pauseButton = document.getElementById('hero-pause');

@@ -6,7 +6,7 @@ Zelfstandige website voor Lachenderwies, ontwikkeld naast Vilmos Studio. Start i
 
 De actuele homepage https://www.lachenderwies.nl is rechtstreeks geraadpleegd op 3 november 2026. Die vermeldt 15 en 16 januari 2027, 19.30 uur, €35 inclusief garderobe en pauzedrankje, de Oranjerie en het programma per avond. Zoekresultaten met 2025-inhoud zijn niet gebruikt. De bestaande officiële Ticketmatic-links en alle fotogalerijlinks zijn behouden; er is geen eigen betaalfunctie.
 
-Het logo en de historische collage komen van de huidige site. De vier geselecteerde Flickr-podiumbeelden en hun oorspronkelijke pagina’s staan in PHOTO-SOURCES.json. Hoofdbeeld en dansbeelden zijn uit 2022; het kleurrijke buutkostuum is uit 2023. Watermerken blijven zichtbaar. Deze foto’s worden niet als de line-up van 2027 gepresenteerd.
+Het logo en de historische collage komen van de huidige site. De acht geselecteerde Flickr-podiumbeelden en hun oorspronkelijke pagina’s staan in PHOTO-SOURCES.json. Hoofdbeeld en dansbeelden zijn uit 2022; het kleurrijke buutkostuum is uit 2023. Watermerken blijven zichtbaar. Deze foto’s worden niet als de line-up van 2027 gepresenteerd.
 
 De huidige bronsite noemt twee verschillende zalen voor de nazit (Cerise Restaurant en Salle de Fetes). Het concept noemt daarom geen specifieke zaal. Nog afstemmen: dialect/spelling, definitieve programma-inhoud en gewenste overige wijzigingen.
 
@@ -18,4 +18,4 @@ Programmakeuze en de gekoppelde ticketlinks zijn in de browser gecontroleerd; za
 
 ## Laatste ontwerpkeuze
 
-Geen paars. De basis is donker groen/grijs met roze, warm geel en mint. In de hero staat “Eine aovend om te laache.”; de evenementnaam blijft alleen als logo in de lichte bovenbalk. Vier historische foto’s wisselen elke zes seconden, met vorige/volgende- en pauzeknoppen. Bij voorkeur voor minder beweging start de fotowissel gepauzeerd. De fotohoogte past zich op grote schermen aan de beschikbare schermhoogte aan. De galerijkop luidt “Ein terök 🥫”.
+Geen paars. De basis is donker groen/grijs met roze, warm geel en mint. In de hero staat “Eine aovend om te laache.”; de evenementnaam blijft alleen als logo in de lichte bovenbalk. Acht historische foto’s wisselen elke zes seconden, met vorige/volgende- en pauzeknoppen. Bij voorkeur voor minder beweging start de fotowissel gepauzeerd. De fotohoogte past zich op grote schermen aan de beschikbare schermhoogte aan. De galerijkop luidt “Ein terök 🥫”.
