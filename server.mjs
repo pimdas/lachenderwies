@@ -1,0 +1,10 @@
+import http from 'node:http';
+import { readFile } from 'node:fs/promises';
+const routes = {'/assets/bree-serif.ttf':['assets/bree-serif.ttf','font/ttf'],'/assets/Bree-Serif-OFL.txt':['assets/Bree-Serif-OFL.txt','text/plain; charset=utf-8'],'/assets/buut-podium.jpg':['assets/buut-podium.jpg','image/jpeg'],'/assets/buut-kostuum.jpg':['assets/buut-kostuum.jpg','image/jpeg'],'/assets/dansgroep.jpg':['assets/dansgroep.jpg','image/jpeg'],'/assets/show.jpg':['assets/show.jpg','image/jpeg'],'/':['index.html','text/html; charset=utf-8'],'/style.css':['style.css','text/css; charset=utf-8'],'/app.js':['app.js','text/javascript; charset=utf-8'],'/assets/logo.png':['assets/logo.png','image/png'],'/assets/lachenderwies.jpg':['assets/lachenderwies.jpg','image/jpeg']};
+http.createServer(async (req,res)=>{
+ if(!['GET','HEAD'].includes(req.method)){res.writeHead(405,{Allow:'GET, HEAD'});res.end();return;}
+ const path=new URL(req.url,'http://localhost').pathname;
+ if(path==='/health'){res.writeHead(200,{'Content-Type':'application/json'});res.end(req.method==='HEAD'?undefined:'{"status":"ok"}');return;}
+ const route=routes[path];if(!route){res.writeHead(404);res.end('Niet gevonden');return;}
+ try{const data=await readFile(new URL('./public/'+route[0],import.meta.url));res.writeHead(200,{'Content-Type':route[1],'X-Content-Type-Options':'nosniff','Referrer-Policy':'no-referrer','Content-Security-Policy':"default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'"});res.end(req.method==='HEAD'?undefined:data);}catch{res.writeHead(500);res.end('De pagina kon niet worden geladen.');}
+}).listen(Number(process.env.PORT||3001),'0.0.0.0',()=>console.log('Lachenderwies: http://localhost:'+(process.env.PORT||3001)));
