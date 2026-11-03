@@ -65,8 +65,6 @@ async function showPhoto(index) {
  if (request !== photoRequest) return;
  photoIndex = nextIndex;
  heroImage.src = preload.src; heroImage.alt = photo.alt;
- document.getElementById('hero-photo-title').textContent = photo.title;
- document.getElementById('hero-photo-year').textContent = 'Sfeerbeeld · editie ' + photo.year;
  document.getElementById('hero-count').textContent = (photoIndex + 1) + ' / ' + heroPhotos.length;
 }
 function schedulePhotos() {
