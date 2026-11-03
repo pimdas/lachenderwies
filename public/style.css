@@ -28,3 +28,8 @@ nav a:hover{color:#bd0841}
 .hero-controls button{background:transparent;color:inherit;border:1px solid #ffffff60;border-radius:3px;min-width:32px;min-height:32px;padding:4px 9px;font-size:12px}
 .hero-controls button:hover{background:#ffffff25}.hero-controls>span{font-size:10px;min-width:33px;text-align:center}
 .hero-controls button:last-child{min-width:78px}
+
+/* More readable navigation and introduction. */
+nav{font-size:14px}
+.intro>div>p{font-size:17px;line-height:1.85}
+@media(max-width:800px){nav{font-size:13px}.intro>div>p{font-size:16px}}
