@@ -46,7 +46,7 @@ const heroPhotos = [
  {file:'buut-zonnebril.jpg', title:'AAN DE MICROFOON', year:2023, alt:'Een buutereedner met zonnebril aan de microfoon tijdens Lachenderwies 2023.'},
  {file:'theaterzaal.jpg', title:'IN DE ORANJERIE', year:2023, alt:'Een breed zicht op de verlichte theaterzaal en het podium van Lachenderwies 2023.'},
  {file:'acrobatiek.jpg', title:'HOOG BOVEN DE PLENK', year:2023, alt:'Een acrobatische danser boven de dansgroep op het podium tijdens Lachenderwies 2023.'},
- {file:'dans-podium.jpg', title:'MEZIEK EN DANS', year:2023, alt:'Dansers in rode kostuums naast de muzikanten op het podium tijdens Lachenderwies 2023.'}
+ {file:'buut-hoed.jpg', title:'IN DE BUUT', year:2023, alt:'Een buutereedner met hoed, bril en blauw jasje aan de microfoon tijdens Lachenderwies 2023.'}
 ];
 const heroImage = document.querySelector('.poster-image img');
 const pauseButton = document.getElementById('hero-pause');
