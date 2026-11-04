@@ -15,7 +15,7 @@ function showDay(day) {
  const friday = day === 'friday';
  const rows = shared.map(row => [...row]);
  rows[0][1] = friday ? 'Tanzgruppe Kölsche Greesberger' : 'Tanzcorps die Fifos';
- rows[2][1] = friday ? 'Josef-Emil Blokwurst' : 'De Aadprinse van D’n Uul';
+ rows[2][1] = friday ? 'Josef-Emil Blokwurst' : 'Ad van Zitteren';
  rows[2][2] = friday ? 'Komieke goochelaer.' : 'Op de zaoterdaagaovend.';
  rows[5][1] = friday ? 'Twan van Oers' : 'Oma Parksjtad';
  rows[6][1] = friday ? 'Erik Mulder' : 'Andy Marcelissen';
