@@ -16,7 +16,7 @@ function showDay(day) {
  const rows = shared.map(row => [...row]);
  rows[0][1] = friday ? 'Tanzgruppe Kölsche Greesberger' : 'Tanzcorps die Fifos';
  rows[2][1] = friday ? 'Josef-Emil Blokwurst' : 'De Aadprinse van D’n Uul';
- rows[2][2] = friday ? 'Komieke goochelaer.' : 'Op de zaoterdigaovend.';
+ rows[2][2] = friday ? 'Komieke goochelaer.' : 'Op de zaoterdaagaovend.';
  rows[5][1] = friday ? 'Twan van Oers' : 'Oma Parksjtad';
  rows[6][1] = friday ? 'Erik Mulder' : 'Andy Marcelissen';
  const list = document.getElementById('lineup'); list.replaceChildren();
@@ -27,8 +27,8 @@ function showDay(day) {
   const body=document.createElement('div'),heading=document.createElement('h4'),text=document.createElement('p');
   heading.textContent=name;text.textContent=description;body.append(heading);if(description)body.append(text);li.append(clock,body);list.append(li);
  }
- document.getElementById('day-title').textContent=friday?'Vriejdig 15 januari.':'Zaoterdig 16 januari.';
- const link=document.getElementById('program-ticket');link.textContent=friday?'Kaarte veur vriejdig ↗':'Kaarte veur zaoterdig ↗';link.href=tickets[friday?0:1];
+ document.getElementById('day-title').textContent=friday?'Vriedaag 15 januari.':'Zaoterdaag 16 januari.';
+ const link=document.getElementById('program-ticket');link.textContent=friday?'Kaarte veur vriedaag ↗':'Kaarte veur zaoterdaag ↗';link.href=tickets[friday?0:1];
  for(const id of ['friday','saturday']){const button=document.getElementById(id);button.setAttribute('aria-pressed',String(id===day));button.classList.toggle('selected',id===day);}
 }
 document.getElementById('friday-ticket').href=tickets[0];
