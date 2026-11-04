@@ -27,7 +27,7 @@ function showDay(day) {
   const body=document.createElement('div'),heading=document.createElement('h4'),text=document.createElement('p');
   heading.textContent=name;text.textContent=description;body.append(heading);if(description)body.append(text);li.append(clock,body);list.append(li);
  }
- document.getElementById('day-title').textContent=friday?'Vriedaag 15 januari.':'Zaoterdaag 16 januari.';
+ document.getElementById('day-title').textContent=friday?'Vriedaag 15 jannewarie.':'Zaoterdaag 16 jannewarie.';
  const link=document.getElementById('program-ticket');link.textContent=friday?'Kaarte veur vriedaag ↗':'Kaarte veur zaoterdaag ↗';link.href=tickets[friday?0:1];
  for(const id of ['friday','saturday']){const button=document.getElementById(id);button.setAttribute('aria-pressed',String(id===day));button.classList.toggle('selected',id===day);}
 }
