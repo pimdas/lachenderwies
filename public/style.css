@@ -33,3 +33,6 @@ nav a:hover{color:#bd0841}
 nav{font-size:14px}
 .intro>div>p{font-size:17px;line-height:1.85}
 @media(max-width:800px){nav{font-size:13px}.intro>div>p{font-size:16px}}
+
+/* Drawn icons prevent emoji substitution on mobile. */
+.ui-arrow{display:inline-block;width:1em;height:1em;flex-shrink:0;vertical-align:-.125em;overflow:visible}
